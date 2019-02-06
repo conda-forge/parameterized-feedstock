@@ -1,6 +1,6 @@
 {% set name = "parameterized" %}
-{% set version = "0.6.3" %}
-{% set sha256 = "e0cfe0cd293d9466aa0dd75cb0ca71f5a613bfa2c572652560c602a1e23ee0da" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "d8c8837fb677ed2d5a93b9e2308ce0da3aeb58cf513120d501e0b7af14da78d5" %}
 
 package:
   name: {{ name|lower }}
