@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About parameterized
 ===================
 
@@ -21,8 +17,15 @@ parameterized testing for py.test, parameterized testing for unittest.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/parameterized-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/parameterized-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5665&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/parameterized-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
