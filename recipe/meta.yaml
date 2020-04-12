@@ -1,6 +1,6 @@
 {% set name = "parameterized" %}
-{% set version = "0.7.1" %}
-{% set sha256 = "6a94dbea30c6abde99fd4c2f2042c1bf7f980e48908bf92ead62394f93cf57ed" %}
+{% set version = "0.7.2" %}
+{% set sha256 = "8ab3fad90cd2fb9b5656f59d7f2b8c25265363e659e60e40f64a5171fa55a502" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ about:
   license: BSD 2-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Parameterized testing with any Python test framework'
+  summary: Parameterized testing with any Python test framework
   description: |
     Parameterized testing in Python sucks.
     parameterized fixes that. For everything. Parameterized testing for nose,
