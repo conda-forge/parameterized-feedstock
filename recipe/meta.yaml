@@ -1,6 +1,6 @@
 {% set name = "parameterized" %}
-{% set version = "0.7.3" %}
-{% set sha256 = "ede6e33b9658ad019772eaa8bfe538c575439c30fccb16e2d9d2aae98e35383c" %}
+{% set version = "0.7.4" %}
+{% set sha256 = "190f8cc7230eee0b56b30d7f074fd4d165f7c45e6077582d0813c8557e738490" %}
 
 package:
   name: {{ name|lower }}
@@ -14,12 +14,13 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
+    - pip
   run:
     - python
 
@@ -29,7 +30,7 @@ test:
 
 about:
   home: https://github.com/wolever/parameterized
-  license: BSD 2-Clause
+  license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Parameterized testing with any Python test framework
