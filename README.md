@@ -3,7 +3,7 @@ About parameterized
 
 Home: https://github.com/wolever/parameterized
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: BSD 3-Clause
 
