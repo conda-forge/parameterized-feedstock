@@ -14,12 +14,11 @@ source:
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python
-    - setuptools
     - pip
   run:
     - python
@@ -27,6 +26,10 @@ requirements:
 test:
   imports:
     - parameterized
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/wolever/parameterized
