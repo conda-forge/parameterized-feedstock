@@ -5,9 +5,11 @@ Home: https://github.com/wolever/parameterized
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/parameterized-feedstock/blob/master/LICENSE.txt)
 
 Summary: Parameterized testing with any Python test framework
+
+Development: https://github.com/wolever/parameterized
 
 Parameterized testing in Python sucks.
 parameterized fixes that. For everything. Parameterized testing for nose,
