@@ -35,7 +35,6 @@ about:
   home: https://github.com/wolever/parameterized
   license: BSD-2-Clause
   license_family: BSD
-  license_file: LICENSE.txt
   summary: Parameterized testing with any Python test framework
   description: |
     Parameterized testing in Python sucks.
