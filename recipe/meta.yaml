@@ -1,6 +1,6 @@
 {% set name = "parameterized" %}
-{% set version = "0.7.4" %}
-{% set sha256 = "190f8cc7230eee0b56b30d7f074fd4d165f7c45e6077582d0813c8557e738490" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "41bbff37d6186430f77f900d777e5bb6a24928a1c46fb1de692f8b52b8833b5c" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
