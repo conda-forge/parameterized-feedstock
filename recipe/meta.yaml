@@ -1,15 +1,12 @@
-{% set name = "parameterized" %}
 {% set version = "0.8.1" %}
-{% set sha256 = "41bbff37d6186430f77f900d777e5bb6a24928a1c46fb1de692f8b52b8833b5c" %}
 
 package:
-  name: {{ name|lower }}
+  name: parameterized
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/p/parameterized/parameterized-{{ version }}.tar.gz
+  sha256: 41bbff37d6186430f77f900d777e5bb6a24928a1c46fb1de692f8b52b8833b5c
 
 build:
   noarch: python
