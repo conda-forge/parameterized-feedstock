@@ -1,11 +1,11 @@
-About parameterized
-===================
+About parameterized-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/parameterized-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/wolever/parameterized
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/parameterized-feedstock/blob/main/LICENSE.txt)
 
 Summary: Parameterized testing with any Python test framework
 

@@ -1,4 +1,4 @@
-{% set version = "0.8.1" %}
+{% set version = "0.9.0" %}
 
 package:
   name: parameterized
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/parameterized/parameterized-{{ version }}.tar.gz
-  sha256: 41bbff37d6186430f77f900d777e5bb6a24928a1c46fb1de692f8b52b8833b5c
+  sha256: 7fc905272cefa4f364c1a3429cbbe9c0f98b793988efb5bf90aac80f08db09b1
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
