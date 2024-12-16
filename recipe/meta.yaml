@@ -5,23 +5,25 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/parameterized/parameterized-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/parameterized/parameterized-{{ version }}.tar.gz
   sha256: 7fc905272cefa4f364c1a3429cbbe9c0f98b793988efb5bf90aac80f08db09b1
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - parameterized
 
